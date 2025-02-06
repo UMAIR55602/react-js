@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700;900&display=swap');
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 9.5s ease-in-out infinite;
+}
+.shadow-bottom {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust these values to control the shadow */
+}
+.swiper-button-next:after {
+  font-size: 12px !important;
+  font-weight: 700;
+  background-color: #3c71ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #3c71ff;
+}
+.swiper-button-prev:after {
+  font-size: 12px !important;
+  font-weight: 700;
+  background-color: #3c71ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #3c71ff;
+}
+.swiper-button-next {
+  right: 80% !important;
+}
+@media screen and (max-width: 768px){
+  .swiper-button-next {
+    right: 88% !important;
+  }
+  .responsive-background{
+    height: 800px;
+  }
+}
+@media screen and (max-width: 567px){
+  .swiper-button-next {
+    right: 78% !important;
+  }
+  .responsive-background{
+    height: 650px;
+  }
+}
+.font-famliy{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 900;
+}
+.font-extrabold {
+  font-weight: 900;
+}
