@@ -46,7 +46,7 @@ function Header() {
             Home
           </Link>
           <Link
-            to="/about-us"
+            to="/about-ussssss"
             onClick={() => handleTabClick("About Us")}
             className={`px-4 py-2 transition-colors text-base font-normal font-[Bricolage Grotesque] duration-300 ${
               activeTab === "About Us"
