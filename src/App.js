@@ -15,7 +15,7 @@ import ContactPage from "./pages/Contact-us/contact-us";
 function App() {
   return (
 
-    <Router>
+    <Router basename="/">
     <MainLayout>
       <Routes>
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/ourServices" element={<OurServices />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/Contact-us" element={<ContactPage />} />
+        <Route path="/contact-us" element={<ContactPage />} />
         <Route path="/ourservicesdetail/:slug" element={<OurServicesDetail />} />
       </Routes>
     </MainLayout>
